@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta name = "viewport" content = "width = device-wdith, initial-scale = 1.0"/>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden overflow-y-scroll`}
       >
         {children}
       </body>
